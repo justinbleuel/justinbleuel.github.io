@@ -6,9 +6,10 @@ html {
 }
 
 body {
-	margin: 0;
+    margin: 0;
+    padding: 0;
 	height: 100%;
-	background-color: black;
+	background-color: white;
 	overflow: hidden;
 }
 
@@ -27,6 +28,11 @@ a {
 span:hover {
     color: #ed0000;
     font-weight: bold;
+}
+
+#animate:hover {
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes spin {
@@ -83,6 +89,7 @@ div {
 .video-container {
     position: relative;
     bottom: 0%;
+    top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -137,6 +144,22 @@ div {
         visibility: hidden;
     }
 
+}
+
+@media screen and (min-width: 990px) {
+    h1 {
+        font-size: 600%;
+    }
+    a {
+        font-size: 200%%;
+    }
+    .video-container video {
+        display: none;
+    }
+    .poster img {
+        background-size: cover;
+        visibility: visible;
+    }
 }
 
 @media screen and (max-device-width: 480px) {
