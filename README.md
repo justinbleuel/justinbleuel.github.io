@@ -1,4 +1,4 @@
-This is my personal site where I link to things I do. You can see it live here: www.columbia.edu/~jmb2372
+This is my personal site where I link to things I do. You can see it live here: www.columbia.edu/~jmb2372 or http://justinbleuel.github.io
 
 -I stylized with Animate.css <https://daneden.github.io/animate.css> </br>
 -I made icons with Font-Awesome <https://fortawesome.github.io/Font-Awesome/> </br>
