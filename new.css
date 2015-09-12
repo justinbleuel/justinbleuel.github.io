@@ -146,22 +146,6 @@ div {
 
 }
 
-@media screen and (min-width: 990px) {
-    h1 {
-        font-size: 600%;
-    }
-    a {
-        font-size: 200%%;
-    }
-    .video-container video {
-        display: none;
-    }
-    .poster img {
-        background-size: cover;
-        visibility: visible;
-    }
-}
-
 @media screen and (max-device-width: 480px) {
     h1 {
         font-size: 300%;
